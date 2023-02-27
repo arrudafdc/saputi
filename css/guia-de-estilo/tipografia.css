@@ -1,0 +1,31 @@
+.serif {
+  font: 400 2.25rem/1.1 "Abhaya Libre", serif;
+}
+
+.font-x {
+  font: 500 2.25rem/1.2 "Inter", sans-serif;
+}
+
+.font-l {
+  font: 300 1.5rem/1.15  "Inter", sans-serif;
+}
+
+.font-m {
+  font: 300 1.25rem/1.2 "Inter", sans-serif;
+}
+
+.font-m-l {
+  font: 200 1.25rem/1.2 "Inter", sans-serif;
+}
+
+.font-r {
+  font: 300 1rem/1.25 "Inter", sans-serif;
+}
+
+.font-r-b {
+  font: 500 1rem/1.25 "Inter", sans-serif;
+}
+
+.font-r-l {
+  font: 200 1rem/1.25 "Inter", sans-serif;
+}

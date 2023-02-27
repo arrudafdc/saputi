@@ -1,0 +1,24 @@
+.main-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1160px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  background: url(../img/fotos/bg-principal.jpg) no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 1160px) {
+  .main-bg {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-bg .logo {
+    height: 60px;
+  }
+}

@@ -7,8 +7,13 @@
   <meta charset="UTF-8">
   <title>Ateliê Saputi</title>
   <meta name="description" content="Roupas feitas artesanalmente em crochê">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <script src="./js/jquery-3.6.3.js"></script>
+  </head>
 
 <body>
   <header class="header-bg">
@@ -31,6 +36,66 @@
     <img class="logo" src="./img/saputi.svg" alt="">
   </main>
 
+  <article class="carrosel-bg">
+
+    <ul class="carrosel-itens">
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Short Bordado</h2>
+          <img src="./img/fotos-produtos/bermuda.jpg" alt="bermuda">
+          <span class="font-l">R$ 266</span>
+        </a>
+      </li>
+
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Cropped Crochê</h2>
+          <img src="./img/fotos-produtos/cropped.jpg" alt="bermuda">
+          <span class="font-l">R$ 159</span>
+        </a>
+      </li>
+
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Short Bordado</h2>
+          <img src="./img/fotos-produtos/regata.jpg" alt="bermuda">
+          <span class="font-l">R$ 143</span>
+        </a>
+      </li>
+
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Casaco</h2>
+          <img src="./img/fotos-produtos/casaco.jpg" alt="bermuda">
+          <span class="font-l">R$ 320</span>
+        </a>
+      </li>
+
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Top Assimetrico</h2>
+          <img src="./img/fotos-produtos/top-assimetrico.jpg" alt="bermuda">
+          <span class="font-l">R$ 140</span>
+        </a>
+      </li>
+
+      <li class="slide">
+        <a href="">
+          <h2 class="serif cor-p">Cropped Floral</h2>
+          <img src="./img/fotos-produtos/floral.jpg" alt="bermuda">
+          <span class="font-l">R$ 120</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="arrow-container">
+      <img class="prev-arrow arrow" src="./img/icones/seta-esquerda.svg" alt="">
+      <img class="next-arrow arrow" src="./img/icones/seta-direita.svg" alt="">
+    </div>
+
+  </article>
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

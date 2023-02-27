@@ -11,3 +11,25 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+// Slider
+
+$(function(){
+  $(".carrosel-itens").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: $(".prev-arrow"),
+    nextArrow: $(".next-arrow"),
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+        }
+      }
+    ],
+  });
+});
+
+//
