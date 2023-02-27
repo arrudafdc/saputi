@@ -50,6 +50,10 @@
 }
 
 @media (max-width: 800px) {
+  .no-scroll {
+    overflow: hidden;
+  }
+
   .header-menu {
     display: none;
     position: absolute;
