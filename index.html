@@ -17,7 +17,7 @@
 
 <body>
   <header class="header-bg">
-    <div class="header">
+    <div class="header container">
       <nav>
         <button aria-label="Abrir ou Fechar Menu" class="btn-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false">
           <span class="hamb"></span>
@@ -28,16 +28,15 @@
           <li><a href="./contato.html">Contato</a></li>
         </ul>
       </nav>
-      <div><a href="./carrinho.html">Carrinho <span>0</span></a></div>
+      <div><a href="./carrinho.html">Carrinho <span class="cor-p">0</span></a></div>
     </div>
   </header>
 
-  <main class="main-bg">
+  <main class="main-bg container">
     <img class="logo" src="./img/saputi.svg" alt="">
   </main>
 
   <article class="carrosel-bg">
-
     <ul class="carrosel-itens">
       <li class="slide">
         <a href="">
@@ -46,7 +45,6 @@
           <span class="font-l">R$ 266</span>
         </a>
       </li>
-
       <li class="slide">
         <a href="">
           <h2 class="serif cor-p">Cropped Crochê</h2>
@@ -54,7 +52,6 @@
           <span class="font-l">R$ 159</span>
         </a>
       </li>
-
       <li class="slide">
         <a href="">
           <h2 class="serif cor-p">Short Bordado</h2>
@@ -62,7 +59,6 @@
           <span class="font-l">R$ 143</span>
         </a>
       </li>
-
       <li class="slide">
         <a href="">
           <h2 class="serif cor-p">Casaco</h2>
@@ -70,7 +66,6 @@
           <span class="font-l">R$ 320</span>
         </a>
       </li>
-
       <li class="slide">
         <a href="">
           <h2 class="serif cor-p">Top Assimetrico</h2>
@@ -78,7 +73,6 @@
           <span class="font-l">R$ 140</span>
         </a>
       </li>
-
       <li class="slide">
         <a href="">
           <h2 class="serif cor-p">Cropped Floral</h2>
@@ -87,13 +81,22 @@
         </a>
       </li>
     </ul>
-
     <div class="arrow-container">
       <img class="prev-arrow arrow" src="./img/icones/seta-esquerda.svg" alt="">
       <img class="next-arrow arrow" src="./img/icones/seta-direita.svg" alt="">
     </div>
-
   </article>
+
+
+      <article class="movie container">
+        <p class="font-x cor-1">
+          Cada peça feita à mão com muito carinho e atenção aos
+          detalhes, usando fios de alta qualidade com peças leves e
+          confortáveis para o verão!
+        </p>
+        <video autoplay muted loop src="./img/fotos/clipe.mp4" type="video/mp4"></video>
+      </article>
+
 
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="script.js"></script>

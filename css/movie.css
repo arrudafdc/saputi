@@ -1,0 +1,43 @@
+.movie {
+  overflow: hidden;
+  height: 700px;
+  margin-bottom: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.movie p {
+  width: 65%;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .movie p {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    width: 80%;
+  }
+
+  .movie {
+    height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .movie p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+}
