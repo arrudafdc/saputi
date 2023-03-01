@@ -13,6 +13,17 @@ footer {
 
 .footer a {
   color: var(--cor-0);
+  position: relative;
+}
+
+.footer a:hover::after {
+  content: '';
+  background: var(--cor-0);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -4px;
+  right: 0;
 }
 
 .footer ul li,
