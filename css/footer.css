@@ -9,24 +9,19 @@ footer {
   height: 500px;
   padding: 70px 16px 0px 16px;
   position: relative;
-
 }
 
 .footer a {
   color: var(--cor-0);
 }
 
-.footer ul li {
-  margin-bottom: 12px;
-}
-
+.footer ul li,
 .footer-logo {
   margin-bottom: 12px;
 }
 
-.footer-logo p {
+.footer-logo-text {
   max-width: 250px;
-  margin-top: 8px;
 }
 
 .footer-copy {
@@ -37,7 +32,6 @@ footer {
 @media (max-width: 1000px) {
   .footer {
     grid-template-columns: 50% 25% 25%;
-    padding-bottom: 70px;
   }
 }
 
@@ -45,13 +39,15 @@ footer {
   .footer {
     height: auto;
     grid-template-columns: 1fr;
+    padding-bottom: 102px;
   }
 
   .footer-copy {
-    bottom: 16px;
+    bottom: 32px;
   }
 
   .footer h2 {
     margin-top: 20px;
   }
+  
 }
