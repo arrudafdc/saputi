@@ -51,6 +51,7 @@ footer {
     height: auto;
     grid-template-columns: 1fr;
     padding-bottom: 102px;
+    padding-top: 40px;
   }
 
   .footer-copy {

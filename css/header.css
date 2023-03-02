@@ -2,6 +2,20 @@
   border-bottom: 1px solid var(--cor-2);
 }
 
+.header-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-p);
+  height: 40px;
+  font-style: italic;
+}
+
+.header-information p {
+  font-style: italic;
+  font-size: .9rem;
+}
+
 .header {
   height: 70px;
   display: flex;
@@ -54,7 +68,7 @@
     display: none;
     position: absolute;
     right: 0;
-    top: 71px;
+    top: 111px;
     z-index: 1000;
     width: 100%;
     height: calc(100vh - 71px);
